@@ -20,16 +20,17 @@
 
     <p> Informações do CV</p>
 
-    <form>
+    <form action=http://www.gis4cloud.com/PTW/formulario.php method="get">
         <label for="nome">Nome</label>
         <input type="text" id=nome><br>
         <label for=pass>Password</label>
         <input type="text" id=pass><br>
+
         <label for=viatura> Viatura própria</label>
-        <input type="checkbox" id=viatura><br>
+        <input type="checkbox" id=viatura value=viatura><br>
 
         <label for=computador> Computador</label>
-        <input type="checkbox" id=computador>
+        <input type="checkbox" id=computador value=computador>
 
 
 
@@ -47,6 +48,7 @@
         <label for="experiencia">Experiência profissional:</label>
         <textarea id=experiencia rows=5 cols=20></textarea>
 
+        <input type="submit" value="Submit">
     </form>
 
 
