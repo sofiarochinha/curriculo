@@ -61,12 +61,12 @@
         </tr>
     </table>
     <br>
-    <form>
+    <form action=http://www.gis4cloud.com/PTW/formulario.php method=get>
         <label>Nome</label>
-        <input type=text required><br>
+        <input type=text required name=nome><br>
         <label>Email</label>
         <input type=email required><br>
-        <label>nome</label>
+        <label>Telefone</label>
         <input type=tel required><br>
         <label>Tipo assunto</label>
         <select required>
@@ -75,7 +75,9 @@
             <option value="C">C</option>
         </select><br>
         <label>Mensagem</label>
-        <textarea rows=5 cols=20 required maxlength=255></textarea>
+        <textarea rows=5 cols=20 required maxlength=255></textarea><br>
+
+        <input type="submit" value="Enviar">
     </form>
 
 </body>
