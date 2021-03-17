@@ -67,7 +67,7 @@
         <label>Email</label>
         <input type=email required><br>
         <label>Telefone</label>
-        <input type=number pattern="9/d{8}" required><br>
+        <input type=number pattern=/^9[1236]{1}[0-9]{7}$/ required><br>
         <label>Tipo assunto</label>
         <select required>
             <option value="A">A</option>
