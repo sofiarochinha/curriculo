@@ -4,8 +4,10 @@ body {
 
 h1 {
     text-align: center;
+    vertical-align: center;
 }
 
 p {
     text-align: center;
+    vertical-align: center;
 }
