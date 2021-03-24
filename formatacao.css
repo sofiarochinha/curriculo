@@ -4,10 +4,11 @@ body {
 
 h1 {
     text-align: center;
-    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 p {
     text-align: center;
-    vertical-align: center;
 }
