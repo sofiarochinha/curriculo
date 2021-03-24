@@ -3,6 +3,7 @@ body {
 }
 
 div {
+    text-align: center;
     margin: 0;
     background: yellow;
     position: absolute;
