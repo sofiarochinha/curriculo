@@ -19,6 +19,8 @@ h1 {
 
 p {
     box-sizing: border-box;
+    width: auto;
+    height: auto;
     text-align: justify;
     text-indent: 20px;
 }
