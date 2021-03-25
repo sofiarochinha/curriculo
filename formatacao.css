@@ -31,6 +31,7 @@ p {
     color: white;
     position: absolute;
     bottom: 400px;
+    font: normal 12px arial;
 }
 
 .imagem {
