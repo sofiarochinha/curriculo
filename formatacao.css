@@ -35,7 +35,7 @@ p {
 }
 
 .imagem {
-    position: absolute;
+    position: relative;
     right: 0px;
     bottom: 0px;
 }
