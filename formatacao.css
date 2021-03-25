@@ -23,6 +23,10 @@ p {
     height: auto;
     text-align: justify;
     text-indent: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 200px;
 }
 
 .imagem {
