@@ -18,6 +18,7 @@ h1 {
 }
 
 p {
+    box-sizing: border-box;
     text-align: justify;
     text-indent: 20px;
 }

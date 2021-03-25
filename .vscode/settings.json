@@ -2,5 +2,6 @@
     "files.autoSave": "onWindowChange",
     "github.autoPublish": true,
     "git.enableSmartCommit": true,
-    "git.postCommitCommand": "push"
+    "git.postCommitCommand": "push",
+    "github.customPullRequestTitle": true
 }
