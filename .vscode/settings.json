@@ -1,4 +1,6 @@
 {
     "files.autoSave": "onWindowChange",
-    "github.autoPublish": true
+    "github.autoPublish": true,
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "push"
 }
