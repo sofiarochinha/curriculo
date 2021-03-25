@@ -13,7 +13,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-h1>div {
+div>h1 {
     background: white;
     height: 300px;
     margin: 20px;
