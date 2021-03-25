@@ -14,10 +14,6 @@ body {
 }
 
 div>h1 {
-    background: white;
-    height: 300px;
-    margin: 20px;
-    width: 300px;
     position: relative;
     resize: vertical;
     overflow: auto;
