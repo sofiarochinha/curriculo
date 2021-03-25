@@ -13,12 +13,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-div>h1 {
-    position: relative;
-    resize: vertical;
-    overflow: auto;
-}
-
 p {
     text-align: center;
 }
