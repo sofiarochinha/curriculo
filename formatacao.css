@@ -36,7 +36,7 @@ a {
     color: white;
     position: absolute;
     bottom: 100px;
-    /*font: normal 12px arial;*/
+    font: normal 12px arial;
 }
 
 .imagem {
