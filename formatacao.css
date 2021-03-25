@@ -21,6 +21,10 @@ p {
     text-align: center;
 }
 
+a {
+    color: green;
+}
+
 #paragrafo {
     box-sizing: border-box;
     width: auto;
