@@ -2,7 +2,7 @@ body {
     background-color: yellow;
 }
 
-div {
+.texto {
     text-align: center;
     margin: 0;
     background: yellow;
