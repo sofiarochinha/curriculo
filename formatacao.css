@@ -28,6 +28,7 @@ a {
 
 #paragrafo {
     box-sizing: border-box;
+    border: 10px solid red;
     width: auto;
     height: auto;
     text-align: justify;
