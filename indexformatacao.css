@@ -2,14 +2,18 @@
     font-style: Verdana;
 }
 
-#cabecalho {
-    font-style: Lucida;
-    font-weight: bold;
-    background-color: #424b5a;
+.caixa {
+    /* formatação das div */
     box-sizing: border-box;
     margin: -8px;
     border: 20px;
     padding: 20px 20px 40px 20px;
+}
+
+#cabecalho {
+    font-style: Lucida;
+    font-weight: bold;
+    background-color: #424b5a;
 }
 
 #cabecalho>p {
@@ -25,10 +29,6 @@
 #sobre {
     background-image: url(bg.jpg);
     background-size: auto;
-    box-sizing: border-box;
-    margin: -8px;
-    border: 20px;
-    padding: 20px 20px 40px 20px;
 }
 
 /*Titulo da div2*/
@@ -51,16 +51,9 @@
     text-decoration: none;
 }
 
-#sobreMim {
-    box-sizing: border-box;
-    margin: -8px;
-    border: 20px;
-    padding: 20px 20px 40px 20px;
-}
+/*Título da div 3, trabalhos, horario*/
 
-/*Título da div 3*/
-
-#sobreMim>h2 {
+h2 {
     text-transform: uppercase;
     font-style: Lucida;
     color: #424b5a;
@@ -75,4 +68,38 @@
 li {
     color: #a1aeb7;
     list-style: square;
+}
+
+/* trabalhos */
+
+#trabalhos {
+    background-color: #f2f5f7;
+}
+
+#trabalhos>p {
+    color: #a1aeb7;
+    padding-bottom: 30px;
+}
+
+/*tabela*/
+
+tr>th {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f2f5f7;
+    color: #424b5a;
+    border: 2px solid black;
+}
+
+tr>td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+/*formulario*/
+
+input {
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
 }
