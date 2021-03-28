@@ -7,7 +7,7 @@
     font-weight: bold;
     background-color: #424b5a;
     box-sizing: border-box;
-    margin: -16px -8px;
+    margin: -8px;
     border: 20px;
     padding: 20px 20px 40px 20px;
 }
@@ -20,4 +20,29 @@
 #cabecalho>p>a {
     color: white;
     font: bold;
+}
+
+#sobre {
+    background-image: url(bg.jpg);
+    background-size: auto;
+    box-sizing: border-box;
+    margin: -8px;
+    border: 20px;
+    padding: 20px 20px 40px 20px;
+}
+
+#sobre>h1 {
+    font-style: Lucida;
+    color: #424b5a;
+}
+
+#saberMais {
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#saberMais>button {
+    color: white;
+    background-color: #424b5a;
+    border-radius: 10px;
 }
