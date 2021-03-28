@@ -38,11 +38,12 @@
 
 #saberMais {
     box-sizing: border-box;
-    padding: 30px;
+    padding-top: 30px;
 }
 
-#saberMais>button {
+#saberMais>p>a {
     color: white;
     background-color: #424b5a;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 5px;
 }
