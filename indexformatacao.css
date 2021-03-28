@@ -1,3 +1,20 @@
+* {
+    font-style: Verdana;
+}
+
 #cabecalho {
+    font-style: Lucida;
     background-color: #424b5a;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#cabecalho>p {
+    color: white;
+    font: bold;
+}
+
+#cabecalho>p>a {
+    color: white;
+    font: bold;
 }
