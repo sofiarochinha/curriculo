@@ -31,6 +31,8 @@
     padding: 20px 20px 40px 20px;
 }
 
+/*Titulo da div2*/
+
 #sobre>h1 {
     font-style: Lucida;
     color: #424b5a;
@@ -45,5 +47,32 @@
     color: white;
     background-color: #424b5a;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#sobreMim {
+    box-sizing: border-box;
+    margin: -8px;
+    border: 20px;
+    padding: 20px 20px 40px 20px;
+}
+
+/*Título da div 3*/
+
+#sobreMim>h2 {
+    text-transform: uppercase;
+    font-style: Lucida;
+    color: #424b5a;
+}
+
+/*Subtitulos da div 3*/
+
+.subtitulo {
+    color: #424b5a;
+}
+
+li {
+    color: #a1aeb7;
+    list-style: square;
 }
