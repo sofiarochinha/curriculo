@@ -98,8 +98,22 @@ tr>td {
 
 /*formulario*/
 
-input {
+input[type=text], input[type=email], select, textarea {
     width: 200px;
     padding: 10px;
+    margin: 5px;
     box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #424b5a;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: Lucida;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    margin: 5px;
+    font-weight: bold;
 }
