@@ -29,6 +29,9 @@ a {
 #paragrafo {
     box-sizing: border-box;
     border: 10px solid red;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: auto;
     height: auto;
     text-align: justify;
@@ -44,4 +47,17 @@ a {
     position: absolute;
     right: 0px;
     bottom: 0px;
+}
+
+li {
+    color: green;
+    /*display: inline;*/
+    float: left;
+    margin-left: 50px;
+    list-style-image: url(seta.gif);
+}
+
+#lista {
+    position: absolute;
+    bottom: 50px;
 }
