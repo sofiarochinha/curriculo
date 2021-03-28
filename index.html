@@ -1,12 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt">
 
 <head>
-    <title>Curriculum Vitae</title>
+    <meta charset="utf-8">
+    <link rel=stylesheet href=indexformatacao.css>
+    <title>Currículo</title>
 </head>
 
 <body>
+    <div id=cabecalho>
+        <p>Nome</p>
+        <p><a href="#sobre">Sobre &nbsp;</a>
+            <a href="#trabalho">Trabalho &nbsp;</a>
+            <a href="#horario">Horário &nbsp;</a>
+            Contactos</p>
+    </div>
 
+
+    <h1>Sofia Rocha</h1>
+    <p>Aluna da estga que estuda TI.</p>
+
+
+    <br>
+    <p><a href=#sobre>Saber mais</a></p>
+    <h2><a name=sobre></a>Sobre mim</h2>
+    <img src="img-teste-01.png" alt="Imagem">
+    <br>
+    <p><strong>Competencias</strong></p>
+    <ul>
+        <li>Programo C, java, python</li>
+        <li>Lider</li>
+    </ul>
+    <br>
+    <p><strong>Experiencia</strong></p>
+    <ul>
+        <li>Ja contrui uma app</li>
+        <li>Projetos da universidade</li>
+    </ul>
+
+    <br>
+    <h3><a name="trabalho"></a>Trabalhos</h3>
+    <p>Descricao trabalhos</p>
+    <img src="img-teste-01.png" alt="Imagem">
+    <img src="img-teste-01.png" alt="Imagem">
+    <img src="img-teste-01.png" alt="Imagem">
+
+    <h3><a name=horario></a>Horário</h3>
+    <table>
+        <tr>
+            <th></th>
+            <th>Segunda</th>
+            <th>Terca</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+        <tr>
+            <td>9h-13h</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+        </tr>
+        <tr>
+            <td>14h-18h</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+        </tr>
+    </table>
+    <br>
+    <form action=http://www.gis4cloud.com/PTW/formulario.php method=get>
+        <label>Nome</label>
+        <input type=text required name=nome><br>
+        <label>Email</label>
+        <input type=email required><br>
+        <label>Telefone</label>
+        <input type=text pattern="9[1236]{1}[0-9]{7}" required><br>
+        <label>Tipo assunto</label>
+        <select required>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select><br>
+        <label>Mensagem</label>
+        <textarea rows=5 cols=20 required maxlength=255></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
 
 </body>
 
