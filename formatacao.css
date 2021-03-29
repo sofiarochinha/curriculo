@@ -1,11 +1,56 @@
 #total {
     box-sizing: border-box;
-    width: auto;
     height: 750px;
 }
 
 .imagem {
     box-sizing: border-box;
-    width: auto;
-    height: 270px;
+    background-size: auto;
+    width: 400px;
+    height: auto;
+    margin: -8px;
+}
+
+/*cabecalho*/
+
+#cabecalho {
+    box-sizing: border-box;
+    margin: -8px;
+    border: 20px;
+    padding: 0px 5px 0px 10px;
+    background-color: green;
+    overflow: auto;
+}
+
+#cabecalho>h3 {
+    color: white;
+    float: left;
+    padding-right: 20px;
+}
+
+#cabecalho>input, label {
+    float: right;
+    color: white;
+    height: 20px;
+    line-height: 60px;
+}
+
+/*pagina*/
+
+#pagina {
+    float: right;
+}
+
+/*outras informacoes*/
+
+#informacoes {
+    float: right;
+}
+
+/*barra do fundo*/
+
+#contactos {
+    position: absolute;
+    background-color: gray;
+    bottom: 0;
 }
