@@ -1,63 +1,11 @@
-body {
-    background-color: yellow;
-}
-
-.texto {
-    text-align: center;
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-h1 {
-    color: green;
-}
-
-p {
-    text-align: center;
-}
-
-a {
-    color: green;
-    text-decoration: none;
-}
-
-#paragrafo {
+#total {
     box-sizing: border-box;
-    border: 10px solid red;
-    padding: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
     width: auto;
-    height: auto;
-    text-align: justify;
-    text-indent: 20px;
-    background-color: black;
-    color: white;
-    position: absolute;
-    bottom: 100px;
-    font: normal 12px arial;
+    height: 750px;
 }
 
 .imagem {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-}
-
-li {
-    color: green;
-    /*display: inline;*/
-    float: left;
-    margin-left: 50px;
-    list-style-image: url(seta.gif);
-}
-
-#lista {
-    position: absolute;
-    bottom: 50px;
+    box-sizing: border-box;
+    width: auto;
+    height: 270px;
 }
