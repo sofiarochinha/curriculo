@@ -38,16 +38,22 @@
 /*pagina*/
 
 #pagina {
-    float: right;
+    float: left;
+    width: 500px;
+}
+
+#pagina>div {
+    box-sizing: border-box;
 }
 
 /*outras informacoes*/
 
 #informacoes {
-    box-sizing: border-box;
+    position: relative;
+    top: 20px;
     float: right;
-    list-style-image: url(bullet.gif);
-    padding: 0.1px;
+    box-sizing: border-box;
+    border: 1px solid gray;
 }
 
 #informacoes>div {
@@ -60,8 +66,14 @@
     line-height: 30px;
 }
 
-#inforamcoes>ul {
+#informacoes>div>h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#informacoes>ul {
     color: green;
+    list-style-image: url(bullet.gif);
 }
 
 /*barra do fundo*/
