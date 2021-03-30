@@ -1,7 +1,7 @@
-#total {
+/*#total {
     box-sizing: border-box;
     height: 750px;
-}
+}*/
 
 .imagem {
     box-sizing: border-box;
@@ -44,13 +44,44 @@
 /*outras informacoes*/
 
 #informacoes {
+    box-sizing: border-box;
     float: right;
+    list-style-image: url(bullet.gif);
+    padding: 0.1px;
+}
+
+#informacoes>div {
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#inforamcoes>ul {
+    color: green;
 }
 
 /*barra do fundo*/
 
 #contactos {
-    position: absolute;
     background-color: gray;
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 1350px;
+    margin: -8px;
+    /*centrar uma div*/
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contactos>p {
+    color: white;
+    display: inline-block;
+    padding-right: 10px;
 }
