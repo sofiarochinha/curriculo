@@ -14,6 +14,10 @@
     font-style: Lucida;
     font-weight: bold;
     background-color: #424b5a;
+    box-sizing: border-box;
+    margin: -8px;
+    border: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 #cabecalho>p {
@@ -24,6 +28,7 @@
 #cabecalho>p>a {
     color: white;
     font: bold;
+    text-decoration: none;
 }
 
 #sobre {
