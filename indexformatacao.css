@@ -1,13 +1,5 @@
-/*.caixa {
-    // formatação das div 
-    box-sizing: border-box;
-    margin: -8px;
-    border: 20px;
-    padding: 20px 20px 40px 20px;
-}*/
-
 #cabecalho {
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-weight: bold;
     background-color: #424b5a;
     box-sizing: border-box;
@@ -32,28 +24,40 @@
 #nome {
     float: left;
 }
+
 #links {
     float: right;
 }
 
+/*Titulo da div2*/
+
 #sobre {
     background-image: url(bg.jpg);
-    background-size: auto;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin: -8px;
+    border: 20px;
+    width: auto;
+    height: 500px;
+    padding: 100px 20px 40px 300px;
 }
-
-/*Titulo da div2*/
 
 #sobre>h1 {
     font-family: cursive;
     color: #424b5a;
 }
 
-#saberMais {
+/* botão */
+
+#saberMaisBotao {
     box-sizing: border-box;
     padding-top: 30px;
+    width: 100px;
 }
 
-#saberMais>p>a {
+/* o tamanho do interior do "botao" nao altera */
+
+#saberMaisBotao>p>a {
     font-family: cursive;
     color: white;
     background-color: #424b5a;
@@ -62,15 +66,29 @@
     text-decoration: none;
 }
 
-/*Título da div 3, trabalhos, horario*/
+/*Título da div Sobre Mim, trabalhos, horario*/
 
 h2 {
     text-transform: uppercase;
-    font-style: Lucida;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #424b5a;
+    text-align: center;
+    padding-top: 100px;
 }
 
 /*Subtitulos da div 3*/
+
+#sobreMim>img {
+    float: left;
+    width: 500px;
+    padding-right: 50px;
+    padding-left: 25%;
+    padding-bottom: 50px;
+}
+
+#experiencia {
+    float: left;
+}
 
 .subtitulo {
     color: #424b5a;
@@ -78,18 +96,29 @@ h2 {
 
 li {
     color: #a1aeb7;
-    list-style: square;
 }
 
 /* trabalhos */
 
 #trabalhos {
+    clear: both;
     background-color: #f2f5f7;
 }
 
 #trabalhos>p {
     color: #a1aeb7;
     padding-bottom: 30px;
+    text-align: center;
+}
+
+#imagens {
+    width: 800px;
+    padding-left: 30%;
+    padding-bottom: 100px;
+}
+
+#imagens>img {
+    width: 250px;
 }
 
 /*tabela*/
