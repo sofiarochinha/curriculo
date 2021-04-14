@@ -64,7 +64,7 @@
         <!-- acaba trabalhos-->
 
         <!-- horario-->
-        <div class=caixa>
+        <div id=divHorario>
             <h2><a id=horario></a>Horário</h2>
             <p>Texto texto texto texto texto</p>
             <table>
@@ -97,29 +97,33 @@
         <!-- acaba horario-->
 
         <!-- formulario -->
-        <div class=caixa>
+        <div id=formulario>
             <h2><a id=contactos></a>Contactos</h2>
-            <form action=http://www.gis4cloud.com/PTW/formulario.php method=get>
+            <div id=form>
+                <form action=http://www.gis4cloud.com/PTW/formulario.php method=get>
 
-                <input type=text required name=nome placeholder="Nome"><br>
+                    <input type=text required name=nome placeholder="Nome"><br>
 
-                <input type=email required placeholder="E-mail"><br>
+                    <input type=email required placeholder="E-mail"><br>
 
-                <input type=text pattern="9[1236]{1}[0-9]{7}" required placeholder="Telefone"><br>
+                    <input type=text pattern="9[1236]{1}[0-9]{7}" required placeholder="Telefone"><br>
 
-                <select required>
-                    <option value>Valor</option>
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                </select><br>
+                    <select required>
+                        <option value>Valor</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select><br>
 
-                <textarea rows=5 cols=20 required maxlength=255 placeholder="Mensagem"></textarea><br>
+                    <textarea rows=5 cols=20 required maxlength=255 placeholder="Mensagem"></textarea><br>
 
-                <input type="submit" value="Enviar">
-            </form>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
         </div>
         <!-- acaba formulario-->
+
+
     </body>
 
 

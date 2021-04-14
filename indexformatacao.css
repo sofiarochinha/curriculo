@@ -113,7 +113,8 @@ li {
 
 #imagens {
     width: 800px;
-    padding-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 100px;
 }
 
@@ -123,20 +124,36 @@ li {
 
 /*tabela*/
 
+#divHorario>p {
+    text-align: center;
+}
+
+#divHorario>table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
 tr>th {
     box-sizing: border-box;
     padding: 20px;
     background-color: #f2f5f7;
     color: #424b5a;
-    border: 2px solid black;
 }
 
 tr>td {
-    border: 2px solid black;
     text-align: center;
 }
 
 /*formulario*/
+
+#formulario {
+    background-color: #f2f5f7;
+}
+
+#form {
+    padding-left: 44%;
+}
 
 input[type=text], input[type=email], select, textarea {
     width: 200px;
