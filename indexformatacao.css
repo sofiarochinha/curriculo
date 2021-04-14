@@ -2,13 +2,13 @@
     font-style: Verdana;
 }
 
-.caixa {
-    /* formatação das div */
+/*.caixa {
+    // formatação das div 
     box-sizing: border-box;
     margin: -8px;
     border: 20px;
     padding: 20px 20px 40px 20px;
-}
+}*/
 
 #cabecalho {
     font-style: Lucida;
@@ -21,6 +21,7 @@
 }
 
 #cabecalho>p {
+    display: inline;
     color: white;
     font: bold;
 }
@@ -29,6 +30,13 @@
     color: white;
     font: bold;
     text-decoration: none;
+}
+
+#nome {
+    float: left;
+}
+#links {
+    float: right;
 }
 
 #sobre {
