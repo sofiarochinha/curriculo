@@ -1,0 +1,85 @@
+#titulo {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    box-sizing: border-box;
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    left: 500px;
+    top: 0;
+}
+
+#titulo>h1, img {
+    display: inline;
+}
+
+#grid {
+    display: inline-grid;
+    grid-template-columns: repeat(7, 50px);
+    position: absolute;
+    left: 900px;
+    top: 60px;
+}
+
+.gridItem {
+    border: 1px solid black;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+#resultado {
+    padding-top: 50px;
+}
+
+.trace {
+    display: inline;
+    border: 1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.acerto {
+    color: red;
+    font-weight: 1000;
+}
+
+.mudarCor {
+    background-color: red;
+}
+
+.erro {
+    background-size: cover;
+    background-image: url("incorrect.gif");
+}
+
+#imagens {
+    height: 275px;
+    width: 210px;
+    position: relative;
+    left: 600px;
+    display: flex;
+}
+
+#imagens::before {
+    content: "";
+    background-image: url("wrong-7.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 275px;
+    width: 210px;
+    opacity: 0.75;
+}
+
+#wrong {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}

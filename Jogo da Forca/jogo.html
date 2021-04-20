@@ -3,17 +3,20 @@
 
     <head>
         <title>Jogo da Forca</title>
-
+        <link rel="stylesheet" href="jogo.css">
     </head>
 
     <body>
-        <div>
+        <input type="file" id=ficheiro>
+
+        <div id=titulo>
             <h1>Jogo da Forca</h1>
-            <img src="icon_hangman.png" alt="icon">
+            <img src=" icon_hangman.png" alt="icon">
         </div>
 
         <!-- letras do alfabeto-->
-        <div>
+
+        <div id=grid>
             <p>A</p>
             <p>B</p>
             <p>C</p>
@@ -41,6 +44,17 @@
             <p>Y</p>
             <p>Z</p>
         </div>
+
+        <div id=resultado>
+
+        </div>
+
+        <div id=imagens>
+
+        </div>
+
     </body>
+
+    <script src="jogo.js"></script>
 
 </html>
