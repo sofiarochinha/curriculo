@@ -1,7 +1,7 @@
 var json = (function () {
   var json = null;
   $.ajax ({
-    url: './dados.json',
+    url: 'https://sofiarochinha.github.io/webhosting/js/dados.json',
     dataType: 'json',
     success: function (data) {
       json = data;
