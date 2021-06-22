@@ -1,0 +1,43 @@
+{
+  "Nome": "Sofia Rocha",
+  "Competencias": [
+    {"Competencia": "Android Studio",
+      "Descricao": "Desenvolvimento de aplicações para Android com acesso à base de dados, Firebase, e a aplicativos do dispositivo."},
+
+    {"Competencia": "Website",
+      "Descricao": "Criação de Website personalizados aos seus requisitos com o uso de frameworks como o Laravel ou o Bootstrap."},
+
+    {"Competencia": "Java",
+        "Descricao": "Desenvolvimento de aplicações stand-alone com acesso à base de dados em MySQL."}
+  ],
+  "Sobre": [
+    {"Data": "Outubro de 2018",
+      "Titulo": "Descobri o gosto pela programação",
+      "Descricao": "Durante o secundário criei, sozinha e sem qualquer tipo de conhecimento de programação, alguns pequeno jogos como o jogo da forca em python num emuldador online"},
+
+    {"Data": "Setembro de 2019",
+      "Titulo": "Entrei na universidade em TI",
+      "Descricao": "Entrei na universidade para aprender mais sobre programação."},
+
+    {"Data": "Dezembro de 2019",
+      "Titulo": "Criei a minha primeira aplicação",
+      "Descricao": "Criei a minha primeira aplicação em java orientada pelos professores da universidade durante um projeto temático."},
+
+    {"Data": "Março de 2021",
+      "Titulo": "Criei o meu primeiro website",
+      "Descricao": "Criei um webste par gerir finanças pessoais do utilizador. Cada utilizador tem uma conta e pode adicionar as suas despesas ou investimentos."}
+  ],
+  "Porjetos": [
+    {"Titulo": "Gerir pedidos de restaurantes",
+      "Tipo": "Java",
+      "Descricao": "Esta aplicação tem 3 utilizadores: o empregado de mesa que anota todos os pedidos dos clientes, o empregado de cozinha, que vê os pedidos e confeciona-os e o administrador que adiciona os produtos, menus e cria as contas par aos empregados. Assim numa só aplicação o restaurante ou café pode gerir todas os seus pedidos de forma mais rápida e sem ter medo de esquecer nada."},
+
+    {"Titulo": "Gerir finanças",
+      "Tipo": "WebSite Laravel",
+      "Descricao": "Com esta aplicação podes gerir as tuas finanças pessoais quer seja as tuas despesas ou investimentos ou ambos. Podes ver gráficos que apresetam todos os gastos e lucros dos investimentos de forma mais rápida que planilhas do Excel."},
+
+    {"Titulo": "Lares de Portugal",
+      "Tipo": "WebSite",
+      "Descricao": "Se estás à procura de lar com serviços de saúde ou de lazer perto ou determinado tipo de lar então nesta aplicação podes pesquisar por Portugal inteiro todos os lares existentes. Podes pesquisar quais são os lares que têm um café a menos de 5 miutos a pé para que o teu familiar esteja sempre bem-disposto."}
+  ]
+}
