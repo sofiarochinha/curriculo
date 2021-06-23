@@ -7,8 +7,8 @@
     {"Competencia": "Website",
       "Descricao": "Criação de Website personalizados aos seus requisitos com o uso de frameworks como o Laravel ou o Bootstrap."},
 
-    {"Competencia": "Java",
-        "Descricao": "Desenvolvimento de aplicações stand-alone com acesso à base de dados em MySQL."}
+    {"Competencia": "Base de dados",
+        "Descricao": "Criação de base de dados em MySQL e PostegreSQL."}
   ],
   "Sobre": [
     {"Data": "Outubro de 2018",
